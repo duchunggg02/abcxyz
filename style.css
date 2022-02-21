@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  padding: 100px;
+  grid-gap: 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.layout-img {
+  width: 100%;
+  object-fit: cover;
+}
