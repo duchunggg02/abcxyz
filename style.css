@@ -16,9 +16,11 @@
   object-fit: cover;
   transform: scale(1);
   transition: all 0.5s;
+  position: relative;
 }
 
 .layout-img:hover {
   transform: scale(1.1);
   cursor: pointer;
+  z-index: 99;
 }
