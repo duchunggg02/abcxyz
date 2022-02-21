@@ -7,8 +7,8 @@
 .layout {
   margin: 20px;
   border: 2px solid red;
-  padding: 20px;
-  grid-gap: 10px;
+  padding: 40px;
+  grid-gap: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
